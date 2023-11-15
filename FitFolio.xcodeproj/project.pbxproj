@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB904BBD2B04DF6200A2E2A4 /* FitFolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB904BBC2B04DF6200A2E2A4 /* FitFolioApp.swift */; };
+		BB904BBF2B04DF6200A2E2A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB904BBE2B04DF6200A2E2A4 /* ContentView.swift */; };
+		BB904BC12B04DF6300A2E2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB904BC02B04DF6300A2E2A4 /* Assets.xcassets */; };
+		BB904BC52B04DF6300A2E2A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB904BC42B04DF6300A2E2A4 /* Preview Assets.xcassets */; };
+		BB904BCF2B04DF6400A2E2A4 /* FitFolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB904BCE2B04DF6400A2E2A4 /* FitFolioTests.swift */; };
+		BB904BD92B04DF6400A2E2A4 /* FitFolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB904BD82B04DF6400A2E2A4 /* FitFolioUITests.swift */; };
+		BB904BDB2B04DF6400A2E2A4 /* FitFolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB904BDA2B04DF6400A2E2A4 /* FitFolioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB904BCB2B04DF6400A2E2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB904BB12B04DF6200A2E2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB904BB82B04DF6200A2E2A4;
+			remoteInfo = FitFolio;
+		};
+		BB904BD52B04DF6400A2E2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB904BB12B04DF6200A2E2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB904BB82B04DF6200A2E2A4;
+			remoteInfo = FitFolio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB904BB92B04DF6200A2E2A4 /* FitFolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB904BBC2B04DF6200A2E2A4 /* FitFolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFolioApp.swift; sourceTree = "<group>"; };
+		BB904BBE2B04DF6200A2E2A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB904BC02B04DF6300A2E2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB904BC22B04DF6300A2E2A4 /* FitFolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitFolio.entitlements; sourceTree = "<group>"; };
+		BB904BC42B04DF6300A2E2A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB904BCA2B04DF6400A2E2A4 /* FitFolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB904BCE2B04DF6400A2E2A4 /* FitFolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFolioTests.swift; sourceTree = "<group>"; };
+		BB904BD42B04DF6400A2E2A4 /* FitFolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB904BD82B04DF6400A2E2A4 /* FitFolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFolioUITests.swift; sourceTree = "<group>"; };
+		BB904BDA2B04DF6400A2E2A4 /* FitFolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB904BB62B04DF6200A2E2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB904BC72B04DF6400A2E2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB904BD12B04DF6400A2E2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB904BB02B04DF6200A2E2A4 = {
+			isa = PBXGroup;
+			children = (
+				BB904BBB2B04DF6200A2E2A4 /* FitFolio */,
+				BB904BCD2B04DF6400A2E2A4 /* FitFolioTests */,
+				BB904BD72B04DF6400A2E2A4 /* FitFolioUITests */,
+				BB904BBA2B04DF6200A2E2A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB904BBA2B04DF6200A2E2A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB904BB92B04DF6200A2E2A4 /* FitFolio.app */,
+				BB904BCA2B04DF6400A2E2A4 /* FitFolioTests.xctest */,
+				BB904BD42B04DF6400A2E2A4 /* FitFolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB904BBB2B04DF6200A2E2A4 /* FitFolio */ = {
+			isa = PBXGroup;
+			children = (
+				BB904BBC2B04DF6200A2E2A4 /* FitFolioApp.swift */,
+				BB904BBE2B04DF6200A2E2A4 /* ContentView.swift */,
+				BB904BC02B04DF6300A2E2A4 /* Assets.xcassets */,
+				BB904BC22B04DF6300A2E2A4 /* FitFolio.entitlements */,
+				BB904BC32B04DF6300A2E2A4 /* Preview Content */,
+			);
+			path = FitFolio;
+			sourceTree = "<group>";
+		};
+		BB904BC32B04DF6300A2E2A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB904BC42B04DF6300A2E2A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB904BCD2B04DF6400A2E2A4 /* FitFolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB904BCE2B04DF6400A2E2A4 /* FitFolioTests.swift */,
+			);
+			path = FitFolioTests;
+			sourceTree = "<group>";
+		};
+		BB904BD72B04DF6400A2E2A4 /* FitFolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB904BD82B04DF6400A2E2A4 /* FitFolioUITests.swift */,
+				BB904BDA2B04DF6400A2E2A4 /* FitFolioUITestsLaunchTests.swift */,
+			);
+			path = FitFolioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB904BB82B04DF6200A2E2A4 /* FitFolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB904BDE2B04DF6400A2E2A4 /* Build configuration list for PBXNativeTarget "FitFolio" */;
+			buildPhases = (
+				BB904BB52B04DF6200A2E2A4 /* Sources */,
+				BB904BB62B04DF6200A2E2A4 /* Frameworks */,
+				BB904BB72B04DF6200A2E2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitFolio;
+			productName = FitFolio;
+			productReference = BB904BB92B04DF6200A2E2A4 /* FitFolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB904BC92B04DF6400A2E2A4 /* FitFolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB904BE12B04DF6400A2E2A4 /* Build configuration list for PBXNativeTarget "FitFolioTests" */;
+			buildPhases = (
+				BB904BC62B04DF6400A2E2A4 /* Sources */,
+				BB904BC72B04DF6400A2E2A4 /* Frameworks */,
+				BB904BC82B04DF6400A2E2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB904BCC2B04DF6400A2E2A4 /* PBXTargetDependency */,
+			);
+			name = FitFolioTests;
+			productName = FitFolioTests;
+			productReference = BB904BCA2B04DF6400A2E2A4 /* FitFolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB904BD32B04DF6400A2E2A4 /* FitFolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB904BE42B04DF6400A2E2A4 /* Build configuration list for PBXNativeTarget "FitFolioUITests" */;
+			buildPhases = (
+				BB904BD02B04DF6400A2E2A4 /* Sources */,
+				BB904BD12B04DF6400A2E2A4 /* Frameworks */,
+				BB904BD22B04DF6400A2E2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB904BD62B04DF6400A2E2A4 /* PBXTargetDependency */,
+			);
+			name = FitFolioUITests;
+			productName = FitFolioUITests;
+			productReference = BB904BD42B04DF6400A2E2A4 /* FitFolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB904BB12B04DF6200A2E2A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BB904BB82B04DF6200A2E2A4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					BB904BC92B04DF6400A2E2A4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BB904BB82B04DF6200A2E2A4;
+					};
+					BB904BD32B04DF6400A2E2A4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BB904BB82B04DF6200A2E2A4;
+					};
+				};
+			};
+			buildConfigurationList = BB904BB42B04DF6200A2E2A4 /* Build configuration list for PBXProject "FitFolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB904BB02B04DF6200A2E2A4;
+			productRefGroup = BB904BBA2B04DF6200A2E2A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB904BB82B04DF6200A2E2A4 /* FitFolio */,
+				BB904BC92B04DF6400A2E2A4 /* FitFolioTests */,
+				BB904BD32B04DF6400A2E2A4 /* FitFolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB904BB72B04DF6200A2E2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB904BC52B04DF6300A2E2A4 /* Preview Assets.xcassets in Resources */,
+				BB904BC12B04DF6300A2E2A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB904BC82B04DF6400A2E2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB904BD22B04DF6400A2E2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB904BB52B04DF6200A2E2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB904BBF2B04DF6200A2E2A4 /* ContentView.swift in Sources */,
+				BB904BBD2B04DF6200A2E2A4 /* FitFolioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB904BC62B04DF6400A2E2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB904BCF2B04DF6400A2E2A4 /* FitFolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB904BD02B04DF6400A2E2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB904BDB2B04DF6400A2E2A4 /* FitFolioUITestsLaunchTests.swift in Sources */,
+				BB904BD92B04DF6400A2E2A4 /* FitFolioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB904BCC2B04DF6400A2E2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB904BB82B04DF6200A2E2A4 /* FitFolio */;
+			targetProxy = BB904BCB2B04DF6400A2E2A4 /* PBXContainerItemProxy */;
+		};
+		BB904BD62B04DF6400A2E2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB904BB82B04DF6200A2E2A4 /* FitFolio */;
+			targetProxy = BB904BD52B04DF6400A2E2A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB904BDC2B04DF6400A2E2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB904BDD2B04DF6400A2E2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BB904BDF2B04DF6400A2E2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitFolio/FitFolio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitFolio/Preview Content\"";
+				DEVELOPMENT_TEAM = NU77HJU955;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeepeshGarg.FitFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB904BE02B04DF6400A2E2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitFolio/FitFolio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitFolio/Preview Content\"";
+				DEVELOPMENT_TEAM = NU77HJU955;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeepeshGarg.FitFolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB904BE22B04DF6400A2E2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU77HJU955;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeepeshGarg.FitFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitFolio";
+			};
+			name = Debug;
+		};
+		BB904BE32B04DF6400A2E2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU77HJU955;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeepeshGarg.FitFolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitFolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitFolio";
+			};
+			name = Release;
+		};
+		BB904BE52B04DF6400A2E2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU77HJU955;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeepeshGarg.FitFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitFolio;
+			};
+			name = Debug;
+		};
+		BB904BE62B04DF6400A2E2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU77HJU955;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DeepeshGarg.FitFolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitFolio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB904BB42B04DF6200A2E2A4 /* Build configuration list for PBXProject "FitFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB904BDC2B04DF6400A2E2A4 /* Debug */,
+				BB904BDD2B04DF6400A2E2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB904BDE2B04DF6400A2E2A4 /* Build configuration list for PBXNativeTarget "FitFolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB904BDF2B04DF6400A2E2A4 /* Debug */,
+				BB904BE02B04DF6400A2E2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB904BE12B04DF6400A2E2A4 /* Build configuration list for PBXNativeTarget "FitFolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB904BE22B04DF6400A2E2A4 /* Debug */,
+				BB904BE32B04DF6400A2E2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB904BE42B04DF6400A2E2A4 /* Build configuration list for PBXNativeTarget "FitFolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB904BE52B04DF6400A2E2A4 /* Debug */,
+				BB904BE62B04DF6400A2E2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB904BB12B04DF6200A2E2A4 /* Project object */;
+}
